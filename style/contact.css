@@ -49,7 +49,7 @@ body {
 }
 
 .ourcontact {
-    padding: 5px 5px 5px 10px;
+    padding: 5px 5px 5px 100px;
     float: left;
 }
 
@@ -247,4 +247,19 @@ fieldset {
     .order {
         width: 100%;
     }
+}
+
+.mapcontainer {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.mapbox {
+    /* border: 1px solid blue; enable this to have border around map*/
+    border: 0px solid;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
